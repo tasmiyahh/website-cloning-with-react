@@ -41,6 +41,7 @@ p
     line-height: 1.5;
     margin-top: 1rem;
     font-weight: 400;
+    font-size : 16px;
 }
 a
 {

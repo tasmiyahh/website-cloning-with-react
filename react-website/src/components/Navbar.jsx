@@ -19,7 +19,7 @@ function Nav() {
             &:visited {
               display: inline-block;
               text-decoration: none;
-              font-size: 1.8rem;
+              font-size: 1rem;
               text-transform: uppercase;
               color: ${({ theme }) => theme.colors.black};
               transition: color 0.3s linear;

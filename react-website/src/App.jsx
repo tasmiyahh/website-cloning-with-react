@@ -3,6 +3,7 @@ import Home from './home'
 import About from './about'
 import Service from './service'
 import Contact from './contact'
+import Error from './error'
 import {
   BrowserRouter as Router,
  Routes,
@@ -46,6 +47,8 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/service' element={<Service/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='*' element={<Error/>}/>
+
       </Routes>
       <Footer/>
      </Router>

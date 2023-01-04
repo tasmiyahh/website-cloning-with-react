@@ -13,6 +13,9 @@ html{
     font-size : 62.5%;
     overflow-x : hidden;
 }
+body{
+    overflow-x : hidden;
+}
 
 h1{
 colors : ${({theme})=> theme.colors.heading};

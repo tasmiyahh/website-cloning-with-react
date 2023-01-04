@@ -14,6 +14,7 @@ import {ThemeProvider} from "styled-components"
 import Header from './components/header'
 import Footer from './components/footer'
 import Globalstyle from './Globalstyle'
+import GoToTop from './components/gototop'
 function App() {
  const theme = {
   colors: {
@@ -50,6 +51,7 @@ function App() {
         <Route path='*' element={<Error/>}/>
 
       </Routes>
+      <GoToTop/>
       <Footer/>
      </Router>
      </ThemeProvider>

@@ -73,7 +73,7 @@ const Wrapper = styled.section`
   @media only screen and (max-width: 768px) {
 
    .top-btn{
-    left : 40%;
+    left : 100%;
     right : 0;
 
    }

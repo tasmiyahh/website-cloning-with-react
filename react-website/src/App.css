@@ -6,6 +6,19 @@
 
 @media only screen and (max-width: 768px) {
 
+  .common-heading{
+    text-align: center;
+   font-size: 2rem;
+   margin: 10px;
+}
+   
+   
+   
+
+  }
+
+@media only screen and (max-width: 768px) {
+
     .footer-short,.footer{
       display : flex;
       flex-direction : column;

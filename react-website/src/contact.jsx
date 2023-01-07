@@ -70,6 +70,14 @@ padding: 9rem 0 5rem 0;
           color: ${({ theme }) => theme.colors.btn};
           transform: scale(0.9);
         }
+
+
+       
+      
+        
+          
+          
+        
 `
 
 export default Contact
